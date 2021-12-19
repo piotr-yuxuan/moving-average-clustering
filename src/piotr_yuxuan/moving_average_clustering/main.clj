@@ -106,7 +106,7 @@
       (cond (every? #(<= (set-distance tentative-query %) threshold) queries)
             tentative-query
 
-            (< 0 infinite-loop-breaker)
+            (pos? infinite-loop-breaker)
             (recur queries
                    tentative-query
                    (dec infinite-loop-breaker))

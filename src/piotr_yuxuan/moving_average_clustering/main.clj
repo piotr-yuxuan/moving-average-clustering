@@ -1,7 +1,7 @@
 (ns piotr-yuxuan.moving-average-clustering.main
-  (:require [clojure.math.combinatorics :as c]
-            [clojure.set :as set]
-            [clojure.data :as data]))
+  (:require [clojure.data :as data]
+            [clojure.math.combinatorics :as c]
+            [clojure.set :as set]))
 
 (defn -main
   [])
